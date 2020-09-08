@@ -6,8 +6,8 @@ def first():
 
 def second():
     list = [12, 30, 6, 7, 13, 8, 11, 50, 24, 2, 5, 10]
-    for i in range(0, len(list) - 1, 1):
-        for j in range(i + 1, len(list), 1):
+    for i in range(len(list)):
+        for j in range(i + 1, len(list)):
             if list[i] < list[j]:
                 temp = list[j]
                 list[j] = list[i]
