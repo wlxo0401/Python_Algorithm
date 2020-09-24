@@ -1,2 +1,10 @@
-for i in range(5, -1, -1):
-    print(i)
+
+
+
+
+
+str1 = "ㄱ"
+
+str1 += "ㄴ"
+
+print(str1)
